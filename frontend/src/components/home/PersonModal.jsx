@@ -21,7 +21,7 @@ const PersonModal = ({ person, onClose }) => {
     >
       <div
         onClick={(event) => {event.stopPropagation(), isDropdownOpen && setDropdownOpen(!isDropdownOpen)}}
-        className='w-[350px] max-w-full h-[500px] bg-white rounded-3xl p-4 flex flex-col relative shadow-xl'
+        className='w-[350px] max-w-full h-[500px] bg-white rounded-3xl p-4 flex flex-col justify-center items-center relative shadow-xl'
         style={{ backgroundImage: `url(${backgroundImageUrl})`, backgroundSize: 'cover' }}
       >
         <div className='absolute top-6 right-6 z-10'>
